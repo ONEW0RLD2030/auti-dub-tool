@@ -10,3 +10,6 @@ auto-dub-tool/
 ├── samples/               # أمثلة فيديوهات وملفات  
 ├── LICENSE                # رخصة المشروع (MIT/AGPL)  
 └── README.md              # شرح المشروع  
+النص الأصلي: "Hello world, this is a test video"
+النص المترجم: "مرحبا بالعالم، هذا فيديو تجريبي"
+تم الإنتهاء! الفيديو الجديد: output.mp4
