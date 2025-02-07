@@ -25,4 +25,7 @@ git commit -m "fix(audio): adjust sync delay in dubbed_audio.wav"
   git commit -m "docs: update installation guide in README.md"
  git add -p  # اختر التغييرات المرتبطة ببعضها
   git commit -m "feat(translation): add Arabic support using MarianMT"
+ git checkout -b fix/indentation-errors  # إنشاء فرع للإصلاحات
+  git checkout -b feat/add-french-translation  # فرع لميزة جديدة
+  git rebase -i HEAD~5  # تعديل آخر 5 Commits
   
