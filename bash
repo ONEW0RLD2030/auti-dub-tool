@@ -31,4 +31,5 @@ git commit -m "fix(audio): adjust sync delay in dubbed_audio.wav"
  git push origin main --force  # تحذير: استخدم --force بحذر!
  git add main.py
    git commit -m "feat(translation): add French support using opus-mt-en-fr"
-   
+  git push origin feat/french-translation
+  
