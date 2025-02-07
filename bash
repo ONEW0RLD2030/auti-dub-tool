@@ -28,4 +28,5 @@ git commit -m "fix(audio): adjust sync delay in dubbed_audio.wav"
  git checkout -b fix/indentation-errors  # إنشاء فرع للإصلاحات
   git checkout -b feat/add-french-translation  # فرع لميزة جديدة
   git rebase -i HEAD~5  # تعديل آخر 5 Commits
-  
+ git push origin main --force  # تحذير: استخدم --force بحذر!
+ 
