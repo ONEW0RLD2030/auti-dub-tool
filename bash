@@ -18,3 +18,5 @@ pip install -r requirements.txt
 
 # تثبيت FFmpeg (لأنظمة Ubuntu/Debian)
 sudo apt update && sudo apt install ffmpeg -y
+# تشغيل البرنامج
+python main.py
