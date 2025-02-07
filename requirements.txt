@@ -1,0 +1,5 @@
+whisper-openai>=1.0  
+transformers>=4.30  
+ffmpeg-python>=0.2.0  
+torch>=2.0.0  
+mimic3>=1.0.0  
