@@ -1,0 +1,12 @@
+auto-dub-tool/  
+├── app/  
+│   ├── main.py            # البرنامج الرئيسي  
+│   ├── requirements.txt   # الملفات المطلوبة  
+│   └── utils/  
+│       ├── audio_utils.py # معالجة الصوت  
+│       └── video_utils.py # معالجة الفيديو  
+├── docs/  
+│   └── guide.md           # دليل الاستخدام  
+├── samples/               # أمثلة فيديوهات وملفات  
+├── LICENSE                # رخصة المشروع (MIT/AGPL)  
+└── README.md              # شرح المشروع  
