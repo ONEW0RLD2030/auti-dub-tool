@@ -21,3 +21,6 @@ sudo apt update && sudo apt install ffmpeg -y
 # تشغيل البرنامج
 python main.py
 vlc output.mp4  # أو أي مشغل فيديو آخر
+git commit -m "fix(audio): adjust sync delay in dubbed_audio.wav"
+  git commit -m "docs: update installation guide in README.md"
+  
