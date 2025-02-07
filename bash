@@ -20,3 +20,4 @@ pip install -r requirements.txt
 sudo apt update && sudo apt install ffmpeg -y
 # تشغيل البرنامج
 python main.py
+vlc output.mp4  # أو أي مشغل فيديو آخر
