@@ -1,0 +1,10 @@
+---
+
+### ملف الإرشادات `docs/guide.md`  
+```markdown
+# دليل الاستخدام بالعربية  
+
+## 1. كيفية تشغيل البرنامج  
+- تأكد من تثبيت FFmpeg:  
+  ```bash
+  sudo apt install ffmpeg  # لنظام Linux
