@@ -6,3 +6,15 @@ cd test-dubbing
 
 # تنزيل ملف فيديو تجريبي (مثال)
 wget https://example.com/sample-video.mp4 -O input.mp4
+# إنشاء ملف المتطلبات
+echo "whisper-openai>=1.0
+transformers>=4.30
+ffmpeg-python>=0.2.0
+torch>=2.0.0
+mimic3>=1.0.0" > requirements.txt
+
+# تثبيت الحزم
+pip install -r requirements.txt
+
+# تثبيت FFmpeg (لأنظمة Ubuntu/Debian)
+sudo apt update && sudo apt install ffmpeg -y
